@@ -1,4 +1,4 @@
-# Those cracks should be flowers
+# *Those cracks should be flowers*
 ## \#001 in the series *Existence composes a colony of black spots*
 
 *Existence composes a colony of black spots* is a series of generative art works that employ live visuals to produce electroacoustic music. This series is inspired by Sol LeWitt’s Wall Drawings which are essentially text instructions that drafters follow, drawing directly on the walls of a gallery. Basic instructions produce marveolus and improbable results. The instructions for Wall Drawing #51 is simply “All architectural points connected by straight lines”. The realization of this work at MassMOCA has produced a colossal web of flowing blue lines, part painting, part installation. https://massmoca.org/event/walldrawing51/ The works in *Existence composes a colony of black spots* explore a similar approach using computer animated graphics. Elements are programmed with simple behaviors and their interactions generate electroacoustic music. A piece is realized through input from live performers and/or a set of instructions.
