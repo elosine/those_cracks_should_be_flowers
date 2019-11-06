@@ -5,14 +5,16 @@
   <meta charset="utf-8">
   <title>Those cracks should be flowers</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
 <style>
   * {
-    font-family: 'Lato';
-    margin: 0;
-    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
     border: none;
+    background-color: black;
   }
 
   #svgcanvas {
@@ -24,9 +26,22 @@
     width: 100%;
     z-index: -1;
   }
+
+  .sform {
+    background-color: white;
+    position: absolute;
+  }
 </style>
 
 <body onload='setup();'>
+
+  <form class="sform">
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname">
+  </form>
+
   <svg id="svgcanvas" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <!-- Filter: white -->
@@ -426,8 +441,8 @@
   var playPieceGate = false;
   // SET UP ----------------------------------------------------------- //
   function setup() {
-    pieceData = generatePiece(2.5);
-    mkStartBtn();
+    // pieceData = generatePiece(2.5);
+    // mkStartBtn();
     window.addEventListener('resize', winResize, false);
   }
   // FUNCTION: generatePiece ------------------------------------------- //
@@ -492,7 +507,6 @@
     timelineFrames.durFrames = dur * FRAMERATE;
     return timelineFrames;
   }
-  var g = true;
   // FUNCTION: playPiece ------------------------------------------- //
   function playPiece() {
     if (playPieceGate) {
@@ -535,7 +549,6 @@
 
     }
   }
-
   // FUNCTION: divvy ------------------------------------------- //
   //// Generates a set of parts from a number and a min
   function divvy(start, number, parts, min) {
