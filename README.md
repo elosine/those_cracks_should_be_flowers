@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Those cracks should be flowers
 
 You can use the [editor on GitHub](https://github.com/elosine/those_cracks_should_be_flowers/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
